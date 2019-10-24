@@ -1,0 +1,27 @@
+package com.devglan.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "encuesta")
+public class encuesta {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	@Column
+	private String nombres;
+	@Column
+	private String apellidos;
+	@Column
+	private int edad;
+	@Column
+	private String profesion;
+	@Column
+	private String lugartrabajo;
+	@Column
+	private String respuesta;
+	
+	
+
+}

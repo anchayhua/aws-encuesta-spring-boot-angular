@@ -1,0 +1,5 @@
+package com.devglan.model;
+
+public class Encuesta {
+
+}
