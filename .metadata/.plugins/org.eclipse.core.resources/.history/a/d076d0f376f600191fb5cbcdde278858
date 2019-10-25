@@ -1,1 +1,0 @@
-INSERT INTO User (id, firstname, lastname, username, password, salary, age) VALUES (1, 'quique','quique', 'quique','$2a$10$Szz6yDDmthSXSkU.lg/fFOa8B.8ar6nmkxexB5FI3lg7GSjWbV7Fu', 3456, 33);

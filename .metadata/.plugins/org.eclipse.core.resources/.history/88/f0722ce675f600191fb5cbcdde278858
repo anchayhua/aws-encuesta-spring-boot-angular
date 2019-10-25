@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="spring-boot-jwt-auth-master">
-        <property name="context-root" value="spring-boot-jwt-auth"/>
-    </wb-module>
-</project-modules>
