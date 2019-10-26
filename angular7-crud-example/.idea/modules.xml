@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/angular7-crud-example.iml" filepath="$PROJECT_DIR$/angular7-crud-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-jwt-auth-master/spring-boot-jwt-auth.iml" filepath="$PROJECT_DIR$/../spring-boot-jwt-auth-master/spring-boot-jwt-auth.iml" />
+    </modules>
+  </component>
+</project>

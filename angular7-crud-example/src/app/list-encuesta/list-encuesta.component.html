@@ -1,0 +1,29 @@
+<div class="col-md-6 user-container">
+  <h2 style="margin: auto"> Encuestas</h2>
+  <br>
+  <button class="btn btn-danger" style="width:200px" (click)="addEncuesta()"> Agregar Encuesta</button>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th class="hidden">NRO</th>
+        <th>NOMBRES</th>
+        <th>APELLIDOS</th>
+        <th>EDAD</th>
+        <th>PROFESIÓN</th>
+        <th>LUGAR TRABAJO</th>
+        <th>RESPUESTA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of encuestas">
+        <td class="hidden">{{item.id}}</td>
+        <td>{{item.nombres}}</td>
+        <td>{{item.apellidos}}</td>
+        <td>{{item.edad}}</td>
+        <td>{{item.profesion}}</td>
+        <td>{{item.lugartrabajo}}</td>
+        <td>{{item.respuesta}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
